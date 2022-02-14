@@ -27,7 +27,8 @@ api = tweepy.API(auth)
 Favorite = True
 Follow = True
 
-hashtags = ['#python']
+# the keywords to search by stored as a list
+hashtags = ['#python', '#linux', '#devops']
 
 # the function with the logic on the bot actions
 def main():
