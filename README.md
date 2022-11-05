@@ -70,5 +70,11 @@ pip install configparser
 
 time - a Python module that is used to represent time in different ways including objects, numbers and strings as well as offering various functionality such as waiting during code execution.
 
+NOTE: If you have cloned this repository, install all pip packages using the requirements.txt file.
+This is done by running:
+```
+pip install -r requirements.txt
+```
+
 ## Contribution
 Any contributions are welcome. Create a pull request or open an issue.
