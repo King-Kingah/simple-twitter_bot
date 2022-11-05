@@ -70,11 +70,34 @@ pip install configparser
 
 time - a Python module that is used to represent time in different ways including objects, numbers and strings as well as offering various functionality such as waiting during code execution.
 
-NOTE: If you have cloned this repository, install all pip packages using the requirements.txt file.
+## Usage
+1. Clone the repository:
+```
+git clone git@github.com:King-Kingah/simple-twitter_bot.git
+```
+2. Install all pip packages using the requirements.txt file.
 This is done by running:
 ```
 pip install -r requirements.txt
 ```
+3. Create a configuration file, `config.ini` to store the authentication credentials i.e. the API keys and access tokens.
+Add the API Key, API Key Secret, Access Token, and Access Token Secret obtained from your Tweeter developer account.
+
+```
+In config.ini
+
+[jk_bot]
+api_key=<Your API Key here>
+api_key_secret=<Your API Key Secret Here>
+
+access_token=<Your Access Token Here>
+access_token_secret=<Your Access Token Secret here>
+```
+![The Config.ini file](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rj8guumx3fuxt2o1681m.png)
+
+4. Once completed, we can run the bot. Here is a screen capture of the bot in action:
+
+![The output](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zhxd5ylmko5200lxghou.png)
 
 ## Contribution
 Any contributions are welcome. Create a pull request or open an issue.
